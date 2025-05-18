@@ -33,3 +33,59 @@ class Arithmetic {
 // minimum = 6
 
      
+// Enter your number
+// -9 10
+// sum = 1
+// difference = -19
+// product = -90
+// average = 0
+// distance = -19
+// max = 10
+// minimum = -9
+
+// Enter your number
+// 4 10
+// sum = 14
+// difference = -6
+// product = 40
+// average = 7
+// distance = -6
+// max = 10
+// minimum = 4
+
+class H {
+    public static void main(String[] args) {
+        System.out.println("Enter your number");
+        Scanner consoleRead = new Scanner (System.in);
+
+        float x = consoleRead.nextFloat();
+        float g = consoleRead.nextFloat();
+        System.out.println("sum = " + (x+g));
+        System.out.println("difference = " + (x-g));
+        System.out.println("product = " + (x*g));
+        System.out.println("average = " + (x+g)/2);
+        System.out.println("distance = " + (x-g));
+        if (x > g){
+            System.out.println("max = " + (x));
+            System.out.println("minimum = " + (g));
+        }
+        else {
+            System.out.println("max = " + (g));
+            System.out.println("minimum = " + (x));
+        }
+    }
+}
+
+// output:
+// Enter your number
+// 9.8 5.6
+// sum = 15.4
+// difference = 4.2000003
+// product = 54.88
+// average = 7.7
+// distance = 4.2000003
+// max = 9.8
+// minimum = 5.6
+
+
+
