@@ -18,3 +18,18 @@ class Arithmetic {
             System.out.println("max = " + (g));
             System.out.println("minimum = " + (x));
         }
+    }
+}
+
+// output: 
+// Enter your number
+// 10 6
+// sum = 16
+// difference = 4
+// product = 60
+// average = 8
+// distance = 4
+// max = 10
+// minimum = 6
+
+     
