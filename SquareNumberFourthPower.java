@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Maths {
     public static void main(String[] args) {
         Scanner consoleRead = new Scanner(System.in);
@@ -38,7 +40,7 @@ class Maths {
 // Cube = 2406104
 // Fourth power = 322417936
 
-class Maths {
+class Square {
     public static void main(String[] args) {
         Scanner consoleRead = new Scanner(System.in);
         System.out.println("Enter your number");

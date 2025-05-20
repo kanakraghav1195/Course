@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Arithmetic {
     public static void main(String[] args) {
         System.out.println("Enter your number");
@@ -89,3 +91,39 @@ class H {
 
 
 
+class Fraction {
+    public static void main(String[] args) {
+        System.out.println("Enter your number");
+        Scanner consoleRead = new Scanner(System.in);
+
+        int x = consoleRead.nextInt();
+        int g = consoleRead.nextInt();
+        int o = consoleRead.nextInt();
+        int r = consoleRead.nextInt();
+        float m = (float) x / g;
+        float s = (float) o / r;
+
+        System.out.println("sum = " + (m + s));
+        System.out.println("difference = " + (m - s));
+        System.out.println("product = " + (m * s));
+        System.out.println("average = " + (m + s) / 2);
+        System.out.println("distance = " + (m - s));
+        if (m > s) {
+            System.out.println("max = " + (m));
+            System.out.println("minimum = " + (s));
+        } else {
+            System.out.println("max = " + (s));
+            System.out.println("minimum = " + (m));
+        }
+    }
+}
+
+//Enter your number
+//3 4 6 9
+//sum = 1.4166667
+//difference = 0.08333331
+//product = 0.5
+//average = 0.7083334
+//distance = 0.08333331
+//max = 0.75
+//minimum = 0.6666667
