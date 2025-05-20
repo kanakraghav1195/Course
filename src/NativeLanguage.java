@@ -1,3 +1,5 @@
+package src;
+
 class NativeLanguage {
      public static void main(String[] args) {
          char hindi = '\u0915';

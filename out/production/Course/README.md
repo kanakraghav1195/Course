@@ -1,2 +1,0 @@
-# Course
-Assignment codes & Result
