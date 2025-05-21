@@ -8,7 +8,7 @@ public class InchesToMeter {
         Scanner a = new Scanner(System.in);
         float inches = a.nextFloat();
         float metres = (float) ((inches)*0.0254);
-        System.out.println(metres);
+        System.out.printf("%.2f", metres);
 
     }
 }
