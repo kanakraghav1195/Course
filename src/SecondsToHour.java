@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SecondsToHour {
     public static void main(String[] args) {
-        System.out.println("Enter your number");
+        System.out.println("Enter Seconds");
         Scanner a = new Scanner(System.in);
         int b = a.nextInt();
         int hours = b/(60*60);
