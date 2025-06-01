@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TemperatureScale {
     public static void main(String[] args) {
-        System.out.println("Enter your number");
+        System.out.println("Enter temperature in celsius");
         Scanner a = new Scanner(System.in);
         float cel = a.nextFloat();
         float fahrenheit = (float) (cel*(1.8) + 32.0);
