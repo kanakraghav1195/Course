@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ATMjourney {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int Balance = 4683903;
+        float Balance = 12367.23F;
         int WithdrawMoney;
         int DepositMoney;
         String Statement = " ";
@@ -28,7 +28,7 @@ public class ATMjourney {
                 System.out.println("Your current Balance " + Balance);
             } else if (choice == 2) {
                 System.out.println("Enter amount to be Withdraw " + Balance);
-                int AmountWithdrawl = scan.nextInt();
+                float AmountWithdrawl = scan.nextFloat();
                 if (Balance >= AmountWithdrawl) {
                     Balance = Balance - AmountWithdrawl;
                     System.out.println("Your Transaction is successful & updated balance = " + Balance);
