@@ -6,4 +6,8 @@ public class Flower {
     int numberOfPetals;
     String fragrance;
     boolean isSeasonal;
+
+    public void bloom(){
+        System.out.println(name + " is blooming");
+    }
 }
