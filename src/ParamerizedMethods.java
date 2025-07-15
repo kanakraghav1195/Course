@@ -1,6 +1,6 @@
 package src;
 
-public class MethodsExample {
+public class ParamerizedMethods {
     public static void main(String[] args) {
 
         int result = Calculator.add(19, 78);
