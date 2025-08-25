@@ -14,7 +14,7 @@ public class SubStringReturn {
                 return str.substring(index, index + 2);
             }
             public static void main(String[] args) {
-                // Testcases
+
                 System.out.println(returnPart("happen", 3));
                 System.out.println(returnPart("hello", 0));
                 System.out.println(returnPart("hello", 99));
